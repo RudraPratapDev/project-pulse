@@ -1,0 +1,14 @@
+[
+  {
+    "id": "735ef731-0d73-49bc-959f-4a276e17608b",
+    "email": "fewfe@qwdewf.com",
+    "password": "$2a$10$59UgkKVAu1paDcyO5E9pSuAeQs2zyiGxAWqd2q1OYAc/a9x3j/7Be",
+    "createdAt": "2025-11-07T16:13:05.437Z"
+  },
+  {
+    "id": "85a49fe4-6c3e-45c8-8827-448a6e108bbf",
+    "email": "test@mail.com",
+    "password": "$2a$10$9HmQtyh0CB2aQP1GMhamUe68NLD7iqPjCjHjJfQpWrWHHfvKWqJOu",
+    "createdAt": "2025-11-07T16:15:04.054Z"
+  }
+]
