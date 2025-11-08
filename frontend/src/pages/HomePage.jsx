@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useAuth } from '../context/AuthContext';
 import { useApi } from '../hooks/useApi';
 import KanbanBoard from '../components/KanbanBoard';
 import TaskModal from '../components/TaskModal';
@@ -17,10 +18,13 @@ const HomePage = () => {
   });
   const [sortBy, setSortBy] = useState('priority');
   const { loading, get, post, put, del } = useApi();
+  const { user } = useAuth();
 
   useEffect(() => {
+    if (user) {
     fetchTasks();
-  }, []);
+  }
+  }, [user]);
 
   useEffect(() => {
     applyFiltersAndSort();
